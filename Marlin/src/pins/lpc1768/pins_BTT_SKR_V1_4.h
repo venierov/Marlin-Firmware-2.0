@@ -96,7 +96,7 @@
     #define Z_MIN_PIN                      P1_27  // Z-STOP
   #endif
   #ifndef Z_MAX_PIN
-    #define Z_MAX_PIN                      P1_00  // PWRDET
+    #define Z_MAX_PIN                      P1_25  // E1DET
   #endif
 #else
   #ifndef Z_STOP_PIN
