@@ -2564,7 +2564,7 @@
   #endif
 
   #if AXIS_IS_TMC(E0)
-    #define E0_CURRENT      650
+    #define E0_CURRENT      800
     #define E0_MICROSTEPS    16
     #define E0_RSENSE         0.11
     #define E0_CHAIN_POS     -1
@@ -2765,9 +2765,9 @@
   #define HYBRID_THRESHOLD
 
   #define X_HYBRID_THRESHOLD     120  // [mm/s]
-  #define X2_HYBRID_THRESHOLD    100
+  #define X2_HYBRID_THRESHOLD    120
   #define Y_HYBRID_THRESHOLD     120
-  #define Y2_HYBRID_THRESHOLD    100
+  #define Y2_HYBRID_THRESHOLD    120
   #define Z_HYBRID_THRESHOLD       3
   #define Z2_HYBRID_THRESHOLD      3
   #define Z3_HYBRID_THRESHOLD      3
